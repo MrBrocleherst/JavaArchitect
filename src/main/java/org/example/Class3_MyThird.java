@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class MyThirdClass2 {
+public class Class3_MyThird {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); //Scanner это олбьект считывания
         System.out.print("Please enter x:");

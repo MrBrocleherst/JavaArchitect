@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class MyThirdClass3 {
+public class Class3_MyThirdclass {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter x:");

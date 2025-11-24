@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class MyClassCredit4 {
+public class Class4_Credit {
     public static void main(String[] args) {
         Scanner myScan = new Scanner(System.in);
         System.out.print("Please enter credit sum: ");

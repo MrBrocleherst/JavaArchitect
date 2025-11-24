@@ -31,6 +31,5 @@ public class AgeFloor {
         char letter2 = 'ю';
         int letterCode = letter2;
         System.out.println(letterCode);
-
     }
 }

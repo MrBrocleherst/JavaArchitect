@@ -1,25 +1,20 @@
 package org.example;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.URL;
 import java.net.URLConnection;
 
-public class Class6_Courses_currency {
+public class Class2_MySecondclass {
     public static void main(String[] args) throws IOException {
-String page = downloadWebPage("https://minfin.com.ua/currency/banks/");
-int startIndex = page.indexOf("USD Курс НБУ");
-int endIndex = page.indexOf("EUR Курс НБУ");
-String courseStr = page.substring(startIndex, endIndex);
-System.out.println();
+        String sourceCode = downloadWebPage("https://www.google.com");
+        writeToFile(sourceCode);
     }
 
     private static String downloadWebPage(String url) throws IOException {
 
         StringBuilder result = new StringBuilder();
         String line;
+
         URLConnection urlConnection = new URL(url).openConnection();
         try (InputStream is = urlConnection.getInputStream();
              BufferedReader br = new BufferedReader(new InputStreamReader(is))) {
@@ -29,5 +24,12 @@ System.out.println();
             }
         }
         return result.toString();
+    }
+
+    public static void writeToFile(String str) throws IOException {
+        BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/macbook/Desktop/myPage.html"));
+        writer.write(str);
+
+        writer.close();
     }
 }

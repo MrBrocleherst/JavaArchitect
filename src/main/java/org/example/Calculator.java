@@ -27,6 +27,5 @@ public class Calculator {
         } else if (operator == '^') {
             System.out.println(Math.pow(x, y));
         }
-
     }
 }

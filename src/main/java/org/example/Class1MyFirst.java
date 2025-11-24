@@ -1,6 +1,6 @@
 package org.example;
 
-public class MyFirstClass {
+public class Class1MyFirst {
     public static void main(String[] args) {
         // a*x +  b*x*x + c = 0
         int a = 5;

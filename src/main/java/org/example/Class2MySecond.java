@@ -1,6 +1,6 @@
 package org.example;
 
-public class MySecondClass {
+public class Class2MySecond {
     public static void main(String[] args) {
         int x = 3;
 

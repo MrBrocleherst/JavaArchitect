@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class MyClass5_Operators {
+public class Class5_Operators {
     public static void main(String[] args) {
         //  + - * /
         // %
