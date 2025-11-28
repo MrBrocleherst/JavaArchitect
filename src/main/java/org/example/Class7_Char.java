@@ -4,32 +4,10 @@ import java.util.Scanner;
 
 public class Class7_Char {
     public static void main(String[] args) {
-        char o1 = 'a';
-        char o2 = 'b';
-        char o3 = 'c';
-        char o4 = 'd';
-        char o5 = 'e';
-        char o6 = 'f';
-        char o7 = 'g';
-        char o8 = 'h';
-        char o9 = 'i';
-        char o10 = 'j';
-        char o11 = 'k';
-        char o12 = 'l';
-        char o13 = 'm';
-        char o14 = 'n';
-        char o15 = 'o';
-        char o16 = 'p';
-        char o17 = 'q';
-        char o18 = 'r';
-        char o19 = 's';
-        char o20 = 't';
-        char o21 = 'u';
-        char o22 = 'v';
-        char o23 = 'w';
-        char o24 = 'x';
-        char o25 = 'y';
-        char o26 = 'z';
+        char o1 = 'a', o2 = 'b', o3 = 'c', o4 = 'd', o5 = 'e', o6 = 'f', o7 = 'g', o8 = 'h',
+                o9 = 'i', o10 = 'j', o11 = 'k', o12 = 'l', o13 = 'm', o14 = 'n', o15 = 'o', o16 = 'p',
+                o17 = 'q', o18 = 'r', o19 = 's', o20 = 't', o21 = 'u', o22 = 'v', o23 = 'w', o24 = 'x',
+                o25 = 'y', o26 = 'z' ;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a symbol: ");
         char c = scanner.next().charAt(0);
